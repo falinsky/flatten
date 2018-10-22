@@ -1,0 +1,25 @@
+{
+  "name": "@falinsky/flatten",
+  "version": "1.0.0",
+  "description": "Flatten provided data (including nested arrays) into a flat array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falinsky/flatten.git"
+  },
+  "keywords": [
+    "flat",
+    "flatten",
+    "array",
+    "nested"
+  ],
+  "author": "Sergey Falinsky <sergey@falinsky.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falinsky/flatten/issues"
+  },
+  "homepage": "https://github.com/falinsky/flatten#readme"
+}
