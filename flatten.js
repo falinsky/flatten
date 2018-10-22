@@ -13,9 +13,15 @@ function flatten(data) {
     return [data];
   }
 
-  return data.reduce(function (accumulator, item) {
-    return accumulator.concat(flatten(item));
-  }, []);
+  const result = [];
+
+  data.forEach(function (dataItem) {
+    flatten(dataItem).forEach(function (flatItem) {
+      result.push(flatItem);
+    });
+  });
+
+  return result;
 }
 
 module.exports = flatten;
