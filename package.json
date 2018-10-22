@@ -2,7 +2,7 @@
   "name": "@falinsky/flatten",
   "version": "1.0.0",
   "description": "Flatten provided data (including nested arrays) into a flat array.",
-  "main": "flaten.js",
+  "main": "flatten.js",
   "scripts": {
     "test": "jest"
   },
